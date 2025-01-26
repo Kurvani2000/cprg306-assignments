@@ -8,4 +8,4 @@ export default function StudentInfo()
             <Link href="https://github.com/Kurvani2000?tab=repositories">Github link</Link>
         </main>
     );
-  }
+}
