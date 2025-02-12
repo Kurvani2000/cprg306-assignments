@@ -15,7 +15,7 @@ export default function NewItem()
     };
   
     return (
-      <div className="mx-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl shadow-lg flex flex-col items-center space-y-6">
+      <div>
         <div className="flex items-center space-x-6 bg-white rounded-lg p-4 shadow-md">
           <button
             onClick={decrement}
