@@ -29,6 +29,9 @@ export default function NewItem()
     };
 
     onAddItem(newItem);
+    setName("");
+    setQuantity(1);
+    setCategory("produce");
 
     return (
       <form onSubmit={handleSubmit}>
